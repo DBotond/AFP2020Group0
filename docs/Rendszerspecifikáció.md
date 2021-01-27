@@ -24,3 +24,6 @@
   
   - Konfliktus(közepes/alacsony): a fejlesztők közt lehetnek nézeteltérések. Ilyen helyzetben talán nem hajlandók együtt dolgozni, ami nagy időveszteséget jelent.
 
+## Meetingek
+- Minden héten hétfőn, 13 óra 15 perctől. 
+
