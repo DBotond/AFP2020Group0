@@ -14,4 +14,13 @@
   16GB Ram
 
   Google Chrome 87.4280.88 (64bit)
-   
+
+ ## Kockázatmenedzsment
+  - Betegség (magas): a projekt elkészülését késleltetheti, ha egy csapattag váratlanul megbetegedik. Ennek következtében nem tud megfelelő hatásfokkal, vagy egyáltalán dolgozni.
+  
+  - Számítógép meghibásodása (magas): előfordulhat, hogy egy csapattag számítógépe ismeretlen okokból meghibásodik. Ebből kifolyólag nem tudjuk használni meghatározatlan ideig.
+  
+  - Adatveszteség (magas): az adatveszteség nagy bajt okozhat a csapatnak. Ha nem készítünk biztonsági mentést, rengetek plusz munkát okozunk magunknak.
+  
+  - Konfliktus(közepes/alacsony): a fejlesztők közt lehetnek nézeteltérések. Ilyen helyzetben talán nem hajlandók együtt dolgozni, ami nagy időveszteséget jelent.
+
