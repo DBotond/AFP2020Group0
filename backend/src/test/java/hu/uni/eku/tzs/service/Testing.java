@@ -1,7 +1,6 @@
 package hu.uni.eku.tzs.service;
 
 import hu.uni.eku.tzs.dao.BillDao;
-import hu.uni.eku.tzs.dao.ComplexNumberDao;
 import hu.uni.eku.tzs.dao.GuestDao;
 import hu.uni.eku.tzs.model.Bill;
 import hu.uni.eku.tzs.model.Guest;
