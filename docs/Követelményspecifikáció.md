@@ -1,6 +1,7 @@
 # Wellnes Badges Software Requirements Specification
 
 ## **Áttekintés**
+
 Egy wellness szállodának szeretnénk készpénz nélküli rendszert bevezetni, ahol vendégek könnyedén igénybe vehetnek
 szolgáltatásokat. A vendégek kapnak egy órát, amely azonosítja őket. Amikor sok vendég megérkezik, mindenki megkapja 
 a saját óráját, de lehetőség van rá, hogy közös számlán fizessenek.  Amikor a vendégek elmennek, visszaadják az új 
@@ -27,11 +28,11 @@ akar az alkoholért, akkor a csapos üzenetet kap a korlátozásról.
 - Több élőerőt kell alkalmazni, mint a teljesen automatizált rendszerünknél.
 - Vendégek személyes adatai nem biztos, hogy védve vannak.
 - Számla rendezés bonyolult lehet.
-- Azonosítás nem biztos emberi tényezők miatt
+- Azonosítás nem biztos emberi tényezők miatt.
 
 ## **Vágyálom rendszer**
 
-### Terjedés, az az kik fogják használni a rendszert:
+### Terjedés, azaz: kik fogják használni a rendszert
 
  A program egyaránt a szálloda üzemeltetőinek, és vendégeinek is készül. 
  A vendégeknek a gyors és akadálymentes fizetés, a szállodának a könnyű nyomon-
@@ -39,19 +40,19 @@ akar az alkoholért, akkor a csapos üzenetet kap a korlátozásról.
   Előreláthatólag három jogosultsági szint lesz, admin, belső felhasználó, és
   felhasználó.
   
-### A szoftvernek egyértelmű üzeneteket kell küldenie.
+### A szoftvernek egyértelmű üzeneteket kell küldenie
  
 A vendégektől nem várható el, hogy számukra értelmezhetetlen üzeneteket
 kapjanak egy esetleges hibáról, ezt széleskörűen kell unit-tesztelni a 
 szoftvert, és minden felmerülő problémáról egyértelmű üzenetet kell kapniuk.
  
-### A későbbiekben a szálloda bővülhet.
+### A későbbiekben a szálloda bővülhet
 
 A rendszernek fel kell készülnie rá, hogy új funkciók, új helyek kerülhetnek
 a szálloda szolgáltatásai közé, ezeket esetleg egy minimális frissítéssel
 kezelnie kell, hogy tudja.
 
-### Rendszer specifikációs álmok.
+### Rendszer specifikációs álmok
 
  A program müködtetésére szolgáló eszközök az alábbiak lesznek: 
 - Egy leolvasó, ami fix helyekre, valamint mobil változatban is elérhető lesz.
@@ -75,18 +76,21 @@ elvégzezni.
 - Minden, a rendszer által nyújtott szolgáltatáshoz joguk van.
 
 ## **Jelenlegi üzleti folyamatok modellje**
+
 A jelenlegi rendszer nagy munkaerőt kíván egy-egy munkatárs elvesztése kritikus lehet.
 Az ügyfeleknek figyelniük kell értékeikre mivel fizetőeszközeiket nem hagyhatják egy zárható szekrényben
 hiszen azok nélkül a különböző szolgáltatások igénybevétele nem lenne lehetséges. Sok vásárló
 ezért kevés szolgáltatást vesz igénybe vagy akár egyántalán nem, csak az alapokat.
 
 ## **Igényelt üzleti folyamatok**
+
 Az ügyfelek karórát kapnak, amit használhatnak a különféle szolgáltatások igénybevételéhez.
 A kerórák kortól függően vannak beállítva, hogy a korhoz kötött szolgáltatásokat ne tudja bárki elérni.
 Távozáskor igény szerint a rendszer számlát állít ki, amin követhető, hogy ki milyen szolgáltatásokat vett
 igénybe, valamint a fizetés is utólag teljesül, hogy minél szabadabb legyen az egyes szolgáltatások igénybevétele.
 
 ## **Követelmény lista**
+
  *A rendszer tulajdonságai:*
  - Tartalmazza a vendégek adatait, de csak annyit, amennyi a rendszerhez kell. - int(UID) | string(name) | int(age) | bool(TypeOfWatch)
  - Képes lekérdezni az adatokat egy külső eszköz segítségével. - int(UID) | string(name) | int(age)
@@ -96,6 +100,7 @@ igénybe, valamint a fizetés is utólag teljesül, hogy minél szabadabb legyen
  - Képes közös számlát kiállítani több ügyfélnek együttesen, a karórákon lévő összeg alapján. - int(UID) | int(TotalBill) | int(IndividualBill)
  - Kijelentkezéskor a felszabadult azonosítókat új embereknek rendeli hozzá.
  
+
 Modul | ID | Név | v. | Kifejtés
 --- | --- | --- | --- |---
 Jogosultság | F1 | Ügyfél adatainak megadása | 1.0 | Ügyfél nevének és életkorának tárolása, karórához való hozzárendelése
